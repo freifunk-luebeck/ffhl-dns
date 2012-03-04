@@ -19,6 +19,7 @@ holstentor    A     10.130.15.1
 ; servers
 aftermath     A     10.130.0.1
 krtek         A     10.130.0.8
+urmel         A     10.130.0.10
 draic         A     10.130.0.12
 paul          A     10.130.6.2
 sip           CNAME draic

@@ -17,6 +17,7 @@ $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 ; servers
 1.0           PTR   aftermath.ffhl.
 8.0           PTR   krtek.ffhl.
+10.0          PTR   urmel.ffhl.
 12.0          PTR   draic.ffhl.
 2.6           PTR   paul.ffhl.
 1.6           PTR   derderwish.ffhl.
