@@ -23,6 +23,6 @@ $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 2.6           PTR   paul.ffhl.
 1.6           PTR   derderwish.ffhl.
 2.16          PTR   chip.ffhl.
-2.6           PTR   wiki.ffhl
+2.6           PTR   wiki.ffhl.
 
 ; clients
