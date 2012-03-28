@@ -19,14 +19,15 @@ holstentor    A     10.130.15.1
 ; servers
 aftermath     A     10.130.0.1
 krtek         A     10.130.0.8
+print         CNAME krtek
 urmel         A     10.130.0.10
 draic         A     10.130.0.12
-meuteblog     A     10.130.0.18
-paul          A     10.130.6.2
 sip           CNAME draic
+meuteblog     A     10.130.0.18
 derderwish    A     10.130.6.1
-chip          A     10.130.16.2
+paul          A     10.130.6.2
 wiki          A     10.130.6.2
-print         CNAME krtek
+yacy          A     10.130.6.3
+chip          A     10.130.16.2
 
 ; clients
