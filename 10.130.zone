@@ -21,9 +21,9 @@ $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 12.0          PTR   draic.ffhl.
 18.0          PTR   meuteblog.ffhl.
 2.6           PTR   paul.ffhl.
-1.6           PTR   derderwish.ffhl.
+3.16          PTR   derderwish.ffhl.
 2.16          PTR   chip.ffhl.
 2.6           PTR   wiki.ffhl.
-3.6           PTR   yacy.ffhl.
+4.16          PTR   yacy.ffhl.
 
 ; clients
