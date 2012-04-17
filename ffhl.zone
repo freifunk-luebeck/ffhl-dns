@@ -24,10 +24,10 @@ urmel         A     10.130.0.10
 draic         A     10.130.0.12
 sip           CNAME draic
 meuteblog     A     10.130.0.18
-derderwish    A     10.130.6.1
+derderwish    A     10.130.16.3
 paul          A     10.130.6.2
 wiki          A     10.130.6.2
-yacy          A     10.130.6.3
+yacy          A     10.130.16.4
 chip          A     10.130.16.2
 
 ; clients
