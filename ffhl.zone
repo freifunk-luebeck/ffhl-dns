@@ -1,7 +1,7 @@
 $ORIGIN ffhl.
 $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 ffhl.  IN  SOA  burgtor.ffhl. freifunk\.luebeck.asta.uni-luebeck.de. (
-              1335354310 ; serial number of this zone file
+              1335813436 ; serial number of this zone file
               1h         ; slave refresh
               3m         ; slave retry time in case of a problem
               1h         ; slave expiration time
@@ -22,17 +22,25 @@ holstentor    A     10.130.15.1
 ; servers
 aftermath     A     10.130.0.1
               AAAA  fdef:ffc0:3dd7::1
+
 krtek         A     10.130.0.8
               AAAA  fdef:ffc0:3dd7::8
+print         CNAME krtek
+
 urmel         A     10.130.0.10
+
 draic         A     10.130.0.12
+sip           CNAME draic
+
 meuteblog     A     10.130.0.18
+              AAAA  fdef:ffc0:3dd7::12
+
 paul          A     10.130.6.2
               AAAA  fdef:ffc0:3dd7::602
-sip           CNAME draic
-derderwish    A     10.130.16.3
-chip          A     10.130.16.2
 wiki          CNAME paul
-print         CNAME krtek
+
+chip          A     10.130.16.2
+
+derderwish    A     10.130.16.3
 
 ; clients
