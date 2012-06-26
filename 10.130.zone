@@ -22,6 +22,7 @@ $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 13.0          PTR   serverbox.ffhl.
 18.0          PTR   meuteblog.ffhl.
 27.0          PTR   manfred.ffhl.
+28.0          PTR   stpetri.ffhl.
 42.0          PTR   nasbox.ffhl.
 2.6           PTR   paul.ffhl.
 3.16          PTR   derderwish.ffhl.
