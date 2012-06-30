@@ -1,6 +1,6 @@
 $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 7.d.d.3.0.c.f.f.f.e.d.f.ip6.arpa.  IN  SOA  burgtor.ffhl. freifunk\.luebeck.asta.uni-luebeck.de. (
-              1340655710 ; serial number of this zone file
+              1341031535 ; serial number of this zone file
               1h         ; slave refresh
               3m         ; slave retry time in case of a problem
               1h         ; slave expiration time
@@ -19,5 +19,11 @@ $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   PTR   krtek.ffhl.
 2.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   PTR   meuteblog.ffhl.
 c.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   PTR   stpetri.ffhl.
+
+; meutenetz
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.b.7.0.0   PTR   krtek.meute.ffhl.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.b.7.0.0   PTR   paul.meute.ffhl.
+5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.b.7.0.0   PTR   manfred.meute.ffhl.
+6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.b.7.0.0   PTR   shrek.meute.ffhl.
 
 ; clients
