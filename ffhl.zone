@@ -42,7 +42,7 @@ stpetri       A     10.130.0.28
 
 nasbox        A     10.130.0.42
 
-namshub	      A	    10.130.0.29
+namshub	A     10.130.0.29
               AAAA  fdef:ffc0:3dd7::1d
 enki          A     10.130.0.30
               AAAA  fdef:ffc0:3dd7::1e
@@ -54,6 +54,8 @@ me            A     10.130.0.33
               AAAA  fdef:ffc0:3dd7::21
 cic           A     10.130.0.64
               AAAA  fdef:ffc0:3dd7::40
+zenforyen     A     10.130.118.2
+              AAAA  fdef:ffc0:3dd7:76:21b:fcff:fefc:c329
 
 chip          A     10.130.16.2
 
