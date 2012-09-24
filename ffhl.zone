@@ -9,6 +9,7 @@ ffhl.  IN  SOA  burgtor.ffhl. freifunk\.luebeck.asta.uni-luebeck.de. (
               )
 
 ; nameservers
+ffhl.         NS    muehlentor
 ffhl.         NS    burgtor
 ffhl.         NS    holstentor
 
