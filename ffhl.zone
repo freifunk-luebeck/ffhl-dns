@@ -65,6 +65,7 @@ derderwish    A     10.130.16.3
 dysis         A     10.130.16.8
 
 robusta       A     10.130.5.8
+hinkelstein   A     10.130.16.18
 
 ; subdomains
 mesh          NS    stpetri
