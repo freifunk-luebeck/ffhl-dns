@@ -1,7 +1,7 @@
 $ORIGIN ffhl.
 $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 ffhl.  IN  SOA  burgtor.ffhl. freifunk\.luebeck.asta.uni-luebeck.de. (
-              1348610752 ; serial number of this zone file
+              1350333398 ; serial number of this zone file
               1h         ; slave refresh
               3m         ; slave retry time in case of a problem
               1h         ; slave expiration time
@@ -27,6 +27,7 @@ holstentor    A     10.130.15.1
 krtek         A     10.130.0.8
               AAAA  fdef:ffc0:3dd7::8
 print         CNAME krtek
+home          CNAME krtek
 wiki          CNAME krtek
 
 stmarien      A     10.130.0.12
