@@ -29,6 +29,7 @@ krtek         A     10.130.0.8
 print         CNAME krtek
 home          CNAME krtek
 wiki          CNAME krtek
+cid           CNAME krtek
 
 stmarien      A     10.130.0.12
               AAAA  fdef:ffc0:3dd7::c
