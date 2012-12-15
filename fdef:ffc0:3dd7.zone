@@ -25,6 +25,7 @@ $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 ; servers
 8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   PTR   krtek.ffhl.
 c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   PTR   stmarien.ffhl.
+1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   PTR   greendog.ffhl.
 2.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   PTR   meuteblog.ffhl.
 c.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   PTR   stpetri.ffhl.
 d.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   PTR   namshub.ffhl.
