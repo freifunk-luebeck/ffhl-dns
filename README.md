@@ -4,7 +4,7 @@ Nähere Informationen zum Projekt gibt es unter http://luebeck.freifunk.net
 
 ## Idee
 In diesem Repo werden unsere Zonefiles der ffhl-TLD verwaltet.
-Bitte
+Bitte lasst die Pull-Requests von einem anderen überprüfen und merged sie nicht selbst.
 
 ## Anleitungen
 Da oft Fehler bei den Eintragungen gemacht werden und Kleinigkeiten vergessen werden, kommen hier nun einige Anleitungen.
