@@ -1,6 +1,6 @@
 # DNS in Freifunk Lübeck
 Freifunk Lübeck ist eine lose Gemeinschaft, die sich mit dem Aufbau eines stadtweiten dezentralen Netzwerks beschäftigt.
-Nähere Informationen gibt es unter [http://luebeck.freifunk.net].
+Nähere Informationen zum Projekt gibt es unter http://luebeck.freifunk.net
 
 ## Idee
 In diesem Repo werden unsere Zonefiles der ffhl-TLD verwaltet.
@@ -14,7 +14,7 @@ Da wir uns entschieden haben, dass zu jeder Domain auch eine IPv6-Adresse gelink
 Nur in Ausnahmefällen (wenn z.B. der Zielhost nicht IPv6-fähig ist) sollte dies unterbleiben.
 
 Aus der IPv4-Adresse 10.130.a.b leitet sich die IPv6-Adresse durch folgendem Schritte ab:
-* XX = [Hexadezimale Darstellung|https://de.wikipedia.org/wiki/Hexadezimalsystem#Umwandlung_von_Dezimalzahlen_in_Hexadezimalzahlen] von a
+* XX = [Hexadezimale Darstellung](https://de.wikipedia.org/wiki/Hexadezimalsystem#Umwandlung_von_Dezimalzahlen_in_Hexadezimalzahlen) von a
 * YY = Hexadezimale Darstellung von b
 * Zusammensetzen zu fdef:ffc0:3dd7::XXYY/64
 
