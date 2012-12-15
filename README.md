@@ -4,6 +4,7 @@ Nähere Informationen gibt es unter [[http://luebeck.freifunk.net]].
 
 ## Idee
 In diesem Repo werden unsere Zonefiles der ffhl-TLD verwaltet.
+Bitte
 
 ## Anleitungen
 Da oft Fehler bei den Eintragungen gemacht werden und Kleinigkeiten vergessen werden, kommen hier nun einige Anleitungen.
@@ -21,6 +22,8 @@ Muehlentor als Beispiel:
 10.130.10.1 wird zu fdef:ffc0:3dd7::a01/64
 
 ### Neue Domain
+*In jeder der Dateien, die gleich angefasst werden, muss zwingend die serial-number im Kopf der Datei um eins erhoeht werden!*
+
 Für eine neue Domain muss diese in die Datei ffhl.zone nach folgendem Muster (Mit Leerzeichen statt Tabs!) gemacht werden:
 ```
 hostname      A     10.130.10.1
