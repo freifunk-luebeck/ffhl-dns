@@ -20,6 +20,7 @@ $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 8.0           PTR   krtek.ffhl.
 12.0          PTR   stmarien.ffhl.
 13.0          PTR   serverbox.ffhl.
+17.0          PTR   greendog.ffhl.
 18.0          PTR   meuteblog.ffhl.
 28.0          PTR   stpetri.ffhl.
 42.0          PTR   nasbox.ffhl.
