@@ -1,14 +1,15 @@
 $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 7.d.d.3.0.c.f.f.f.e.d.f.ip6.arpa.  IN  SOA  burgtor.ffhl. freifunk\.luebeck.asta.uni-luebeck.de. (
-              1348585948 ; serial number of this zone file
+              1360022957 ; serial number of this zone file
               1h         ; slave refresh
               3m         ; slave retry time in case of a problem
               1h         ; slave expiration time
               1m         ; negative cache
               )
 
-              NS    burgtor.ffhl.
+              NS    muehlentor.ffhl.
               NS    holstentor.ffhl.
+              NS    burgtor.ffhl.
 
 ; Anleitung mit Beispiel:
 ; muehlentor ist fdef:ffc0:3dd7::a01
@@ -18,9 +19,10 @@ $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 ; -> so eintragen
 
 ; gateways
+1.0.8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   PTR   huextertor.ffhl.
 1.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   PTR   muehlentor.ffhl.
+1.0.c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   PTR   holstentor.ffhl.
 1.0.e.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   PTR   burgtor.ffhl.
-1.0.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   PTR   holstentor.ffhl.
 
 ; servers
 8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   PTR   krtek.ffhl.
