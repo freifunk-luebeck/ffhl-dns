@@ -87,7 +87,7 @@ robusta       A     10.130.5.8
 hinkelstein   A     10.130.16.18
 
 owncloud      A     10.130.17.200
-              AAAA  fdef:ffc0:3dd7::11c8
+
 ; subdomains
 meute         NS    krtek.meute
 krtek.meute   A     10.130.123.1
