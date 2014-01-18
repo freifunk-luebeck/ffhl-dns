@@ -1,7 +1,7 @@
 $ORIGIN ffhl.
 $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 ffhl.  IN  SOA  burgtor.ffhl. freifunk\.luebeck.asta.uni-luebeck.de. (
-              1384115473 ; serial number of this zone file
+              1390080816 ; serial number of this zone file
               1h         ; slave refresh
               3m         ; slave retry time in case of a problem
               1h         ; slave expiration time
@@ -12,6 +12,10 @@ ffhl.  IN  SOA  burgtor.ffhl. freifunk\.luebeck.asta.uni-luebeck.de. (
 ffhl.         NS    muehlentor
 ffhl.         NS    holstentor
 ffhl.         NS    burgtor
+
+; magic
+next-node     A     10.130.0.1
+              AAAA  fdef:ffc0:3dd7::1
 
 ; gateways
 huextertor    A     10.130.8.1
