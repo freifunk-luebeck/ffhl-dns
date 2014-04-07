@@ -1,6 +1,6 @@
 $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 130.10.in-addr.arpa.  IN  SOA  burgtor.ffhl. freifunk\.luebeck.asta.uni-luebeck.de. (
-              1393198924 ; serial number of this zone file
+              1393198925 ; serial number of this zone file
               1h         ; slave refresh
               3m         ; slave retry time in case of a problem
               1h         ; slave expiration time
@@ -22,6 +22,7 @@ $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 
 ; servers
 8.0           PTR   krtek.ffhl.
+9.0           PTR   srv01.ffhl.
 12.0          PTR   stmarien.ffhl.
 13.0          PTR   serverbox.ffhl.
 15.0          PTR   staegidien.ffhl.
