@@ -1,7 +1,7 @@
 $ORIGIN ffhl.
 $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 ffhl.  IN  SOA  burgtor.ffhl. freifunk\.luebeck.asta.uni-luebeck.de. (
-              1393198921 ; serial number of this zone file
+              1393198922 ; serial number of this zone file
               1h         ; slave refresh
               3m         ; slave retry time in case of a problem
               1h         ; slave expiration time
@@ -105,6 +105,9 @@ hinkelstein   A     10.130.16.18
 owncloud      A     10.130.17.200
 
 introducer    A     172.23.190.65 ; will be moved to mesh
+
+tor           CNAME philae.meute
+tails         CNAME philae.meute
 
 ; subdomains
 meute         NS    krtek.meute
