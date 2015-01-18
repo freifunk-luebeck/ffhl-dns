@@ -42,7 +42,6 @@ krtek         A     10.130.0.8
               AAAA  fdef:ffc0:3dd7::8
 print         CNAME krtek
 home          CNAME krtek
-wiki          CNAME krtek
 cid           CNAME krtek
 pics          CNAME krtek
 propaganda    CNAME krtek
@@ -50,6 +49,7 @@ propaganda    CNAME krtek
 srv01         A     10.130.0.9
               AAAA  fdef:ffc0:3dd7::9
 map           CNAME srv01
+wiki          CNAME srv01
 
 stmarien      A     10.130.0.12
               AAAA  fdef:ffc0:3dd7::c
