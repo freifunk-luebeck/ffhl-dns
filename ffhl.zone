@@ -1,7 +1,7 @@
 $ORIGIN ffhl.
 $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 ffhl.  IN  SOA  burgtor.ffhl. freifunk\.luebeck.asta.uni-luebeck.de. (
-              1408923007 ; serial number of this zone file
+              1408923008 ; serial number of this zone file
               1h         ; slave refresh
               3m         ; slave retry time in case of a problem
               1h         ; slave expiration time
@@ -19,22 +19,22 @@ node          A     10.130.0.1
 
 ; gateways
 huextertor    A     10.130.8.1
-              AAAA  fdef:ffc0:3dd7::801
+              AAAA  2001:67c:2d50::801
 
 muehlentor    A     10.130.10.1
-              AAAA  fdef:ffc0:3dd7::a01
+              AAAA  2001:67c:2d50::a01
 
 holstentor    A     10.130.12.1
-              AAAA  fdef:ffc0:3dd7::c01
+              AAAA  2001:67c:2d50::c01
 
 burgtor       A     10.130.14.1
-              AAAA  fdef:ffc0:3dd7::e01
+              AAAA  2001:67c:2d50::e01
 
 ; services (no CNAMEs to make this IPv6 only)
 
-1.ntp.services AAAA fdef:ffc0:3dd7::c01 ; holstentor
+1.ntp.services AAAA 2001:67c:2d50::c01 ; holstentor
 
-1.updates.services AAAA fdef:ffc0:3dd7::9 ; srv01
+1.updates.services AAAA 2001:67c:2d50::9 ; srv01
 
 ; servers
 
@@ -47,7 +47,7 @@ pics          CNAME krtek
 propaganda    CNAME krtek
 
 srv01         A     10.130.0.9
-              AAAA  fdef:ffc0:3dd7::9
+              AAAA  2001:67c:2d50::9
 map           CNAME srv01
 wiki          CNAME srv01
 
