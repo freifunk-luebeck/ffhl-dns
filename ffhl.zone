@@ -1,7 +1,7 @@
 $ORIGIN ffhl.
 $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 ffhl.  IN  SOA  burgtor.ffhl. freifunk\.luebeck.asta.uni-luebeck.de. (
-              1408923009 ; serial number of this zone file
+              1408923010 ; serial number of this zone file
               1h         ; slave refresh
               3m         ; slave retry time in case of a problem
               1h         ; slave expiration time
@@ -69,6 +69,8 @@ greendog      A     10.130.0.17
 
 meuteblog     A     10.130.0.18
               AAAA  fdef:ffc0:3dd7::12
+
+prtg          A     10.130.0.20
 
 nasbox        A     10.130.0.42
 
