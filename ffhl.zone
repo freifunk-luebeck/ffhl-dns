@@ -95,18 +95,6 @@ freeway       A     10.130.0.133
 zenforyen     A     10.130.118.2
               AAAA  fdef:ffc0:3dd7:76:21b:fcff:fefc:c329
 
-chip          A     10.130.16.2
-
-derderwish    A     10.130.16.3
-
-dysis         A     10.130.16.8
-
-robusta       A     10.130.5.8
-
-hinkelstein   A     10.130.16.18
-
-owncloud      A     10.130.17.200
-
 tor           CNAME philae.meute
 tails         CNAME philae.meute
 

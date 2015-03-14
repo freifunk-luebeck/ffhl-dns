@@ -38,11 +38,6 @@ $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 33.0          PTR   me.ffhl.
 64.0          PTR   cic.ffhl.
 133.0         PTR   freeway.ffhl.
-5.8           PTR   robusta.ffhl.
-3.16          PTR   derderwish.ffhl.
-2.16          PTR   chip.ffhl.
-8.16          PTR   dysis.ffhl.
-18.16         PTR   hinkelstein.ffhl.
 2.118         PTR   zenforyen.ffhl.
 200.17        PTR   owncloud.ffhl.
 
