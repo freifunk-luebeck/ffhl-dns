@@ -107,8 +107,6 @@ hinkelstein   A     10.130.16.18
 
 owncloud      A     10.130.17.200
 
-introducer    A     172.23.190.65 ; will be moved to mesh
-
 tor           CNAME philae.meute
 tails         CNAME philae.meute
 
