@@ -93,9 +93,5 @@ freeway       A     10.130.0.133
 zenforyen     A     10.130.118.2
               AAAA  fdef:ffc0:3dd7:76:21b:fcff:fefc:c329
 
-tor           A     10.130.123.11
-              AAAA  fdef:ffc0:3dd7:7b:21e:67ff:fea4:81f4
-tails         CNAME tor
-
 ; subdomains
 nodes         NS    srv01
