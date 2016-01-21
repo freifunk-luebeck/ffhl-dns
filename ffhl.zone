@@ -1,7 +1,7 @@
 $ORIGIN ffhl.
 $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 ffhl.  IN  SOA  burgtor.ffhl. freifunk\.luebeck.asta.uni-luebeck.de. (
-              1408923013 ; serial number of this zone file
+              1408923015 ; serial number of this zone file
               1h         ; slave refresh
               3m         ; slave retry time in case of a problem
               1h         ; slave expiration time
@@ -13,23 +13,6 @@ ffhl.         NS    muehlentor
 ffhl.         NS    holstentor
 ffhl.         NS    burgtor
 
-; magic
-node          A     10.130.0.1
-              AAAA  fdef:ffc0:3dd7::1
-
-; gateways
-huextertor    A     10.130.0.252
-              AAAA  2001:67c:2d50::801
-
-muehlentor    A     10.130.0.254
-              AAAA  2001:67c:2d50::a01
-
-holstentor    A     10.130.0.253
-              AAAA  2001:67c:2d50::c01
-
-burgtor       A     10.130.0.255
-              AAAA  2001:67c:2d50::e01
-
 ; services (no CNAMEs to make this IPv6 only)
 
 1.ntp.services AAAA 2001:67c:2d50::801
@@ -38,60 +21,3 @@ burgtor       A     10.130.0.255
                AAAA 2001:67c:2d50::e01
 
 1.updates.services AAAA 2001:67c:2d50::9 ; srv01
-
-; servers
-
-krtek         A     10.130.0.8
-              AAAA  fdef:ffc0:3dd7::8
-print         CNAME krtek
-cid           CNAME krtek
-pics          CNAME krtek
-propaganda    CNAME krtek
-
-srv01         A     10.130.0.9
-              AAAA  2001:67c:2d50::9
-home          CNAME srv01
-map           CNAME srv01
-wiki          CNAME srv01
-
-stmarien      A     10.130.0.12
-              AAAA  fdef:ffc0:3dd7::c
-sip           CNAME stmarien
-streams       CNAME stmarien
-
-serverbox     A     10.130.0.13
-
-staegidien    A     10.130.0.15
-              AAAA  fdef:ffc0:3dd7::f
-nethack       CNAME staegidien
-
-minetest      A     10.130.0.15
-
-greendog      A     10.130.0.17
-              AAAA  fdef:ffc0:3dd7::11
-
-prtg          A     10.130.0.20
-
-stjuergen     A     10.130.0.28
-              AAAA  fdef:ffc0:3dd7::1c
-proxy.sip     CNAME stjuergen
-
-namshub       A     10.130.0.29
-              AAAA  fdef:ffc0:3dd7::1d
-enki          A     10.130.0.30
-              AAAA  fdef:ffc0:3dd7::1e
-innana        A     10.130.0.31
-              AAAA  fdef:ffc0:3dd7::1f
-opz           A     10.130.0.32
-              AAAA  fdef:ffc0:3dd7::20
-me            A     10.130.0.33
-              AAAA  fdef:ffc0:3dd7::21
-cic           A     10.130.0.64
-              AAAA  fdef:ffc0:3dd7::40
-freeway       A     10.130.0.133
-              AAAA  fdef:ffc0:3dd7::85
-zenforyen     A     10.130.118.2
-              AAAA  fdef:ffc0:3dd7:76:21b:fcff:fefc:c329
-
-; subdomains
-nodes         NS    srv01
