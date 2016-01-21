@@ -13,6 +13,12 @@ ffhl.         NS    muehlentor
 ffhl.         NS    holstentor
 ffhl.         NS    burgtor
 
+; gateways
+huextertor    AAAA  2001:67c:2d50::801
+muehlentor    AAAA  2001:67c:2d50::a01
+holstentor    AAAA  2001:67c:2d50::c01
+burgtor       AAAA  2001:67c:2d50::e01
+
 ; services (no CNAMEs to make this IPv6 only)
 
 1.ntp.services AAAA 2001:67c:2d50::801
