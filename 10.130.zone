@@ -1,6 +1,6 @@
 $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
-130.10.in-addr.arpa.  IN  SOA  burgtor.ffhl. freifunk\.luebeck.asta.uni-luebeck.de. (
-              1393198927 ; serial number of this zone file
+130.10.in-addr.arpa.  IN  SOA  holstentor.ffhl. info.luebeck.freifunk.net. (
+              2020022900 ; serial number of this zone file
               1h         ; slave refresh
               3m         ; slave retry time in case of a problem
               1h         ; slave expiration time
@@ -8,8 +8,9 @@ $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
               )
 
               NS    muehlentor.ffhl.
-              NS    burgtor.ffhl.
+              NS    kaisertor.ffhl.
               NS    holstentor.ffhl.
+              NS    huextertor.ffhl.
 
 ; magic
 1.0           PTR   node.ffhl.
@@ -18,31 +19,8 @@ $TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 252.0         PTR   huextertor.ffhl.
 253.0         PTR   holstentor.ffhl.
 254.0         PTR   muehlentor.ffhl.
-255.0         PTR   burgtor.ffhl.
+255.0         PTR   kaisertor.ffhl.
 
 ; servers
-8.0           PTR   krtek.ffhl.
 9.0           PTR   srv01.ffhl.
-12.0          PTR   stmarien.ffhl.
-13.0          PTR   serverbox.ffhl.
-15.0          PTR   staegidien.ffhl.
-17.0          PTR   greendog.ffhl.
-18.0          PTR   meuteblog.ffhl.
-20.0          PTR   prtg.ffhl.
-42.0          PTR   nasbox.ffhl.
-28.0          PTR   stjuergen.ffhl.
-29.0          PTR   namshub.ffhl.
-30.0          PTR   enki.ffhl.
-31.0          PTR   innana.ffhl.
-32.0          PTR   opz.ffhl.
-33.0          PTR   me.ffhl.
-64.0          PTR   cic.ffhl.
-133.0         PTR   freeway.ffhl.
-2.118         PTR   zenforyen.ffhl.
-200.17        PTR   owncloud.ffhl.
 
-; meutenetz
-
-123           NS    krtek.meute.ffhl.
-
-; clients
