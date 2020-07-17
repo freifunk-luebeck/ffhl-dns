@@ -26,6 +26,6 @@ holstentor    AAAA  2001:67c:2d50::c01
                AAAA 2001:67c:2d50::a01
                AAAA 2001:67c:2d50::c01
 
-1.updates.services AAAA 2a01:4f8:160:3067::4 ; srv02 quickfix
+1.updates.services AAAA 2001:67c:2d50::10 ; srv02
 
 ; servers
