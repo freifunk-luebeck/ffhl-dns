@@ -54,5 +54,5 @@ node          A     10.130.0.1
 1.ntp.services AAAA 2001:67c:2d50::a01
                AAAA 2001:67c:2d50::c01
 
-1.updates.services AAAA 2001:67c:2d50::10 ; srv02
-opkg.services AAAA 2001:67c:2d50::10 ; srv01
+1.updates.services CNAME firmware ; srv02
+opkg.services      CNAME firmware ; srv02
