@@ -1,21 +1,12 @@
               A     176.9.147.120
-              AAAA  2a01:4f8:160:3067::3
+              AAAA  2a01:4f8:160:3067::4
 
-nodes         NS    srv01
+nodes         NS    srv02
 
-srv01         A     176.9.147.120
-              AAAA  2a01:4f8:160:3067::3
-www           CNAME srv01
-map           CNAME srv01
-map2          CNAME srv01
-firmware      CNAME srv01
-git           CNAME srv01
-status        CNAME srv01
-oldwiki       CNAME srv01
-wiki          CNAME freifunk-luebeck.gitlab.io.
-support       CNAME srv01
-monitor       CNAME srv01
-
+; Hosts
+srv01         A     10.130.0.9
+srv01         AAAA  2a01:4f8:160:3067::3
+srv02         A     176.9.147.120
 srv02         AAAA  2a01:4f8:160:3067::4
 blueberry     A     10.130.0.101
 blueberry6    AAAA  2001:67c:2d50:aaaa:bbbb:cccc:1:1
@@ -23,15 +14,34 @@ strawberry    A     10.130.0.102
 strawberry6   AAAA  2001:67c:2d50:aaaa:bbbb:cccc:1:2
 builder	      A     10.130.0.99
 
-huextertor    AAAA  2001:67c:2d50::801
-muehlentor    AAAA  2001:67c:2d50::a01
+; Gateways
 holstentor    AAAA  2001:67c:2d50::c01
-burgtor       AAAA  2001:67c:2d50::e01
+muehlentor    AAAA  2001:67c:2d50::a01
+kaisertor     AAAA  2001:67c:2d50::aaaa
+huextertor    AAAA  2001:67c:2d50::bbaa
+
+holstentor    A     10.130.0.253
+muehlentor    A     10.130.0.254
+huextertor    A     10.130.0.252
+kaisertor     A     10.130.0.255
 
 4.huextertor  A     10.130.0.252
 4.muehlentor  A     10.130.0.254
 4.holstentor  A     10.130.0.253
-4.burgtor     A     10.130.0.255
+4.kaisertor   A     10.130.0.255
+
+
+; services
+www           CNAME srv02
+map           CNAME srv02
+map2          CNAME srv02
+firmware      CNAME srv02
+git           CNAME srv02
+wiki          CNAME srv02
+monitor       CNAME srv02
+
+
+
 
 anycastdns    AAAA  2001:67c:2d50:1::a82:7fe0
 
@@ -44,9 +54,5 @@ node          A     10.130.0.1
 1.ntp.services AAAA 2001:67c:2d50::a01
                AAAA 2001:67c:2d50::c01
 
-1.updates.services AAAA 2001:67c:2d50::9 ; srv01
-opkg.services AAAA 2001:67c:2d50::9 ; srv01
-
-_gitlab-pages-verification-code.wiki2 TXT gitlab-pages-verification-code=69177b3167cfe37a54ddbdd6c46ca336
-_gitlab-pages-verification-code.wiki  TXT gitlab-pages-verification-code=bacc6d6381f07c7c2c611f70af5d5238
-_github-challenge-freifunk-luebeck.luebeck.freifunk.net. TXT 5ddbd9555e
+1.updates.services AAAA 2001:67c:2d50::10 ; srv02
+opkg.services AAAA 2001:67c:2d50::10 ; srv01
