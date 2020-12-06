@@ -1,29 +1,15 @@
 $ORIGIN ffhl.
-$TTL 10m  ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
-ffhl.  IN  SOA  holstentor.ffhl. info.luebeck.freifunk.net. (
-              2020022900 ; serial number of this zone file
+$TTL 10m
+ffhl.  IN  SOA  srv02.ffhl. info.luebeck.freifunk.net. (
+              1598485530 ; serial number of this zone file
               1h         ; slave refresh
               3m         ; slave retry time in case of a problem
               1h         ; slave expiration time
               1m         ; negative cache
               )
 
-; nameservers
-ffhl.         NS    muehlentor
-ffhl.         NS    holstentor
-ffhl.         NS    kaisertor
-ffhl.         NS    huextertor
+@ IN NS srv02.ffhl.
 
-kaisertor     AAAA  2001:67c:2d50::aa
-huextertor    AAAA  2001:67c:2d50::bb
-muehlentor    AAAA  2001:67c:2d50::a01
-holstentor    AAAA  2001:67c:2d50::c01
 
-; services (no CNAMEs to make this IPv6 only)
 
-1.ntp.services AAAA 2001:67c:2d50::a01
-               AAAA 2001:67c:2d50::c01
-
-1.updates.services AAAA 2001:67c:2d50::10 ; srv02
-
-; servers
+$INCLUDE ffhl.include

@@ -1,58 +1,59 @@
-              A     176.9.147.120
-              AAAA  2a01:4f8:160:3067::4
+                A     176.9.147.120
+                AAAA  2a01:4f8:160:3067::4
 
-nodes         NS    srv02
+nodes           NS    srv02
 
 ; Hosts
-srv01         A     10.130.0.9
-srv01         AAAA  2a01:4f8:160:3067::3
-srv02         A     176.9.147.120
-srv02         AAAA  2a01:4f8:160:3067::4
-blueberry     A     10.130.0.101
-blueberry6    AAAA  2001:67c:2d50:aaaa:bbbb:cccc:1:1
-strawberry    A     10.130.0.102
-strawberry6   AAAA  2001:67c:2d50:aaaa:bbbb:cccc:1:2
-builder	      A     10.130.0.99
+srv02           A     176.9.147.120
+srv02           AAAA  2a01:4f8:160:3067::4
+srv01           CNAME srv02
+blueberry       A     10.130.0.101
+blueberry       AAAA  2001:67c:2d50::101
+strawberry      A     10.130.0.102
+strawberry      AAAA  2001:67c:2d50::102
+cranberry       A     10.130.0.103
+cranberry       AAAA  2001:67c:2d50::103
+builder         A     10.130.0.99
+                AAAA  2001:67c:2d50::11
+
 
 ; Gateways
-holstentor    AAAA  2001:67c:2d50::c01
-muehlentor    AAAA  2001:67c:2d50::a01
-kaisertor     AAAA  2001:67c:2d50::aaaa
-huextertor    AAAA  2001:67c:2d50::bbaa
+holstentor      AAAA  2001:67c:2d50::c01
+holstentor      A     10.130.0.253
+muehlentor      AAAA  2001:67c:2d50::a01
+muehlentor      A     10.130.0.254
+kaisertor       AAAA  2001:67c:2d50::aaaa
+huextertor      A     10.130.0.252
+huextertor      AAAA  2001:67c:2d50::bbaa
+kaisertor       A     10.130.0.255
 
-holstentor    A     10.130.0.253
-muehlentor    A     10.130.0.254
-huextertor    A     10.130.0.252
-kaisertor     A     10.130.0.255
-
-4.huextertor  A     10.130.0.252
-4.muehlentor  A     10.130.0.254
-4.holstentor  A     10.130.0.253
-4.kaisertor   A     10.130.0.255
+4.huextertor    A     10.130.0.252
+4.muehlentor    A     10.130.0.254
+4.holstentor    A     10.130.0.253
+4.kaisertor     A     10.130.0.255
 
 
 ; services
-www           CNAME srv02
-map           CNAME srv02
-map2          CNAME srv02
-firmware      CNAME srv02
-git           CNAME srv02
-wiki          CNAME srv02
-monitor       CNAME srv02
+www             CNAME srv02
+map             CNAME srv02
+map2            CNAME srv02
+firmware        CNAME srv02
+git             CNAME srv02
+wiki            CNAME srv02
+monitor         CNAME srv02
+peertube        CNAME blueberry
 
 
-
-
-anycastdns    AAAA  2001:67c:2d50:1::a82:7fe0
+anycastdns      AAAA  2001:67c:2d50:1::a82:7fe0
 
 
 
 ; magic next node address
-node          A     10.130.0.1
-              AAAA  fdef:ffc0:3dd7::1
+node            A     10.130.0.1
+                AAAA  fdef:ffc0:3dd7::1
 
-1.ntp.services AAAA 2001:67c:2d50::a01
-               AAAA 2001:67c:2d50::c01
+1.ntp.services  AAAA  2001:67c:2d50::a01
+                AAAA  2001:67c:2d50::c01
 
-1.updates.services CNAME firmware ; srv02
-opkg.services      CNAME firmware ; srv02
+1.updates.services CNAME firmware
+opkg.services      CNAME firmware
