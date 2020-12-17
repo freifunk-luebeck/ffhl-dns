@@ -43,6 +43,7 @@ firmware        CNAME srv02
 git             CNAME srv02
 wiki            CNAME srv02
 monitor         CNAME srv02
+services        CNAME srv02
 peertube        CNAME blueberry
 
 
