@@ -43,9 +43,17 @@ firmware        CNAME srv02
 git             CNAME srv02
 wiki            CNAME srv02
 monitor         CNAME srv02
-services        CNAME srv02
 peertube        CNAME blueberry
 
+services        CNAME srv02
+pixel.services	CNAME services
+pad.services    CNAME services
+matrix.services CNAME services
+chat.services   CNAME services
+cloud.services   CNAME services
+office.services   CNAME services
+kanban.services   CNAME services
+social.services   CNAME services
 
 anycastdns      AAAA  2001:67c:2d50:1::a82:7fe0
 
