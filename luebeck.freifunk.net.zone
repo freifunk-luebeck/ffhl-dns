@@ -8,7 +8,8 @@ luebeck.freifunk.net.   IN  SOA     srv02.luebeck.freifunk.net. maschinenraum.lu
                         3m         ; negative cache
                         )
 
-@                       IN  NS    srv02.luebeck.freifunk.net.
+@                       IN  NS    ns1.luebeck.freifunk.net.
+                        IN  NS    ns2.luebeck.freifunk.net.
                         IN  MX    20 mail.chaotikum.net.
 
 

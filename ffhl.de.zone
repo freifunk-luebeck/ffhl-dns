@@ -8,7 +8,8 @@ ffhl.de. IN SOA srv02.luebeck.freifunk.net. maschinenraum.luebeck.freifunk.net. 
                 3m         ; negative cache
                 )
 
-@ NS srv02.luebeck.freifunk.net.
+@ NS ns1.luebeck.freifunk.net.
+  NS ns2.luebeck.freifunk.net.
 
 
 $INCLUDE ffhl.include

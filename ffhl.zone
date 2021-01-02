@@ -8,7 +8,8 @@ ffhl.  IN  SOA  srv02.ffhl. info.luebeck.freifunk.net. (
               1m         ; negative cache
               )
 
-@ IN NS srv02.ffhl.
+@ IN NS ns1.ffhl.
+  IN NS ns2.ffhl.
 
 
 
