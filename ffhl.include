@@ -27,19 +27,25 @@ builder         A     10.130.0.99
 
 
 ; Gateways
-holstentor      AAAA  2001:67c:2d50::c01
+holstentor      AAAA  2001:67c:2d50::ccaa
 holstentor      A     10.130.0.253
-muehlentor      AAAA  2001:67c:2d50::a01
+muehlentor      AAAA  2001:67c:2d50::ddaa
 muehlentor      A     10.130.0.254
 kaisertor       AAAA  2001:67c:2d50::aaaa
-huextertor      A     10.130.0.252
-huextertor      AAAA  2001:67c:2d50::bbaa
 kaisertor       A     10.130.0.255
+huextertor      AAAA  2001:67c:2d50::bbaa
+huextertor      A     10.130.0.252
 
 4.huextertor    A     10.130.0.252
 4.muehlentor    A     10.130.0.254
 4.holstentor    A     10.130.0.253
 4.kaisertor     A     10.130.0.255
+
+6.holstentor      AAAA  2001:67c:2d50::ccaa
+6.muehlentor      AAAA  2001:67c:2d50::ddaa
+6.kaisertor       AAAA  2001:67c:2d50::aaaa
+6.huextertor      AAAA  2001:67c:2d50::bbaa
+
 
 
 ; services
