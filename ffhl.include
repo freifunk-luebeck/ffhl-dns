@@ -1,9 +1,9 @@
                 A     5.9.249.24
-                AAAA  2a01:4f8:172:1ba6:1::14
+                AAAA  2a01:4f8:172:1ba6:1::3
 
 ; nameserver
 ns1             A     5.9.249.24
-ns1             AAAA  2a01:4f8:172:1ba6:1::14
+ns1             AAAA  2a01:4f8:172:1ba6:1::3
 
 ns2             A     185.163.119.235
 ns2             AAAA  2a03:4000:3b:53c:a4d4:5dff:fee7:d0e0
@@ -12,7 +12,7 @@ nodes           NS    srv02
 
 ; Hosts
 srv02           A     5.9.249.24
-srv02           AAAA  2a01:4f8:172:1ba6:1::14
+srv02           AAAA  2a01:4f8:172:1ba6:1::3
 srv01           CNAME srv02
 blueberry       A     10.130.0.101
 blueberry       AAAA  2001:67c:2d50::101
