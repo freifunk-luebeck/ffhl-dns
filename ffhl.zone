@@ -1,7 +1,7 @@
 $ORIGIN ffhl.
 $TTL 10m
 ffhl.  IN  SOA  srv02.ffhl. info.luebeck.freifunk.net. (
-              1598485530 ; serial number of this zone file
+              1614922516 ; serial number of this zone file
               1h         ; slave refresh
               3m         ; slave retry time in case of a problem
               1h         ; slave expiration time
