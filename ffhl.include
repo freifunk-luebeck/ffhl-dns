@@ -46,6 +46,10 @@ huextertor      A     10.130.0.252
 6.kaisertor       AAAA  2001:67c:2d50::aaaa
 6.huextertor      AAAA  2001:67c:2d50::bbaa
 
+; Test Gateway
+wg01              A     5.9.249.27
+                  AAAA  2a01:4f8:172:1ba6::27
+
 
 
 ; services
