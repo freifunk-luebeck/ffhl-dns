@@ -61,6 +61,7 @@ monitor         CNAME srv02
 status          CNAME srv02
 peertube        CNAME blueberry
 up              CNAME blueberry
+yourservice     NS    srv02
 
 services        CNAME srv02
 pixel.services	CNAME services
