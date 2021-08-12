@@ -14,6 +14,8 @@ nodes           NS    srv02
 srv02           A     5.9.249.24
 srv02           AAAA  2a01:4f8:172:1ba6:1::3
 srv01           CNAME srv02
+srv03           A     10.130.0.11
+srv03           AAAA  2001:67c:2d50::b
 blueberry       A     10.130.0.101
 blueberry       AAAA  2001:67c:2d50::101
 strawberry      A     10.130.0.102
