@@ -16,13 +16,12 @@ srv02           AAAA  2a01:4f8:172:1ba6:1::3
 srv01           CNAME srv02
 srv03           A     10.130.0.11
 srv03           AAAA  2001:67c:2d50::b
+srv04           A     10.130.0.12
+srv04           AAAA  2001:67c:2d50::c
 blueberry       A     10.130.0.101
 blueberry       AAAA  2001:67c:2d50::101
 strawberry      A     10.130.0.102
 strawberry      AAAA  2001:67c:2d50::102
-introducer1.tahoe     A     10.130.0.103
-introducer1.tahoe     AAAA  2001:67c:2d50::103
-
 builder         A     10.130.0.99
                 AAAA  2001:67c:2d50::11
 
@@ -67,15 +66,7 @@ peertube        CNAME blueberry
 up              CNAME blueberry
 yourservice     NS    srv02.luebeck.freifunk.net.
 
-services        CNAME srv02
-pixel.services	CNAME services
-pad.services    CNAME services
-matrix.services CNAME services
-chat.services   CNAME services
-cloud.services   CNAME services
-office.services   CNAME services
-kanban.services   CNAME services
-social.services   CNAME services
+1.introducer.tahoe CNAME srv04
 
 anycastdns      AAAA  2001:67c:2d50:1::a82:7fe0
 
