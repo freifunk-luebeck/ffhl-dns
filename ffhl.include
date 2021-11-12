@@ -22,10 +22,8 @@ blueberry       A     10.130.0.101
 blueberry       AAAA  2001:67c:2d50::101
 strawberry      A     10.130.0.102
 strawberry      AAAA  2001:67c:2d50::102
-builder         A     10.130.0.99
-                AAAA  2001:67c:2d50::11
-
-
+srv03-tahoe     A     10.130.0.103
+srv03-tahoe     AAAA  2001:67c:2d50::103
 
 ; Gateways
 holstentor      AAAA  2001:67c:2d50::ccaa
@@ -67,6 +65,7 @@ up              CNAME blueberry
 yourservice     NS    srv02.luebeck.freifunk.net.
 
 1.introducer.tahoe CNAME srv04
+2.introducer.tahoe CNAME srv03-tahoe 
 
 anycastdns      AAAA  2001:67c:2d50:1::a82:7fe0
 
