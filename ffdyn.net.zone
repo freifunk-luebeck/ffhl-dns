@@ -1,0 +1,14 @@
+$ORIGIN ffdyn.net.
+$TTL 300
+ffhl.de. IN SOA ns1.luebeck.freifunk.net. info.luebeck.freifunk.net. (
+                1637193914 ; serial number of this zone file
+                15m         ; slave refresh
+                5m         ; slave retry time in case of a problem
+                30d        ; slave expiration time
+                3m         ; negative cache
+                )
+
+@ NS ns1.luebeck.freifunk.net.
+  NS ns2.luebeck.freifunk.net.
+  A     138.201.66.177
+  AAAA  2a01:4f8:172:1ba6::2
