@@ -8,7 +8,7 @@ ffdyn.net. IN SOA ns1.ffdyn.net. info.luebeck.freifunk.net. (
                 3m         ; negative cache
                 )
 
-@ NS ns1.ns2.ffdyn.net.
+@ NS ns1.ffdyn.net.
   NS ns2.ffdyn.net.
-  A     138.201.66.177
+  A     5.9.249.24
   AAAA  2a01:4f8:172:1ba6::2
