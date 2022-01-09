@@ -56,20 +56,21 @@ wg01              A     5.9.249.27
 
 
 ; services
-www             CNAME srv02
-map             CNAME srv02
-map2            CNAME srv02
-firmware        CNAME srv02
-git             CNAME srv02
-wiki            CNAME srv02
-monitor         CNAME srv02
-status          CNAME srv02
-peertube        CNAME blueberry
-up              CNAME blueberry
-yourservice     NS    srv02.luebeck.freifunk.net.
+www                 CNAME srv02
+map                 CNAME srv02
+map2                CNAME srv02
+firmware            CNAME srv02
+mirror01.firmware   CNAME mirror01
+git                 CNAME srv02
+wiki                CNAME srv02
+monitor             CNAME srv02
+status              CNAME srv02
+peertube            CNAME blueberry
+up                  CNAME blueberry
+yourservice         NS    srv02.luebeck.freifunk.net.
 
 1.introducer.tahoe CNAME srv04
-2.introducer.tahoe CNAME srv03-tahoe 
+2.introducer.tahoe CNAME srv03-tahoe
 
 anycastdns      AAAA  2001:67c:2d50:1::a82:7fe0
 
@@ -84,3 +85,4 @@ node            A     10.130.0.1
 
 1.updates.services CNAME firmware
 opkg.services      CNAME firmware
+
