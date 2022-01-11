@@ -13,4 +13,4 @@ ffhl.  IN  SOA  srv02.ffhl. info.luebeck.freifunk.net. (
 
 
 
-$INCLUDE ffhl.include
+$INCLUDE ffhl/ffhl.include

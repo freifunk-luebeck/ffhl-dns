@@ -14,4 +14,4 @@ luebeck.freifunk.net.   IN  SOA     ns1.luebeck.freifunk.net. maschinenraum.lueb
 
 
 
-$INCLUDE ffhl.include
+$INCLUDE ffhl/ffhl.include
