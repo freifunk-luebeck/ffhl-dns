@@ -28,6 +28,8 @@ dyndns          A     10.130.0.104
 dyndns          AAAA  2001:67c:2d50::104
 mirror01        A     10.130.0.105
 mirror01        AAAA  2001:67c:2d50::105
+docker01        A     10.130.0.106
+                AAAA  2001:67c:2d50::106
 
 ; Gateways
 holstentor      AAAA  2001:67c:2d50::ccaa
@@ -85,4 +87,3 @@ node            A     10.130.0.1
 
 1.updates.services CNAME firmware
 opkg.services      CNAME firmware
-
