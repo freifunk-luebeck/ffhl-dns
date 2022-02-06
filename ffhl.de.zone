@@ -1,7 +1,7 @@
 $ORIGIN ffhl.de.
 $TTL 300
 ffhl.de. IN SOA ns1.luebeck.freifunk.net. maschinenraum.luebeck.freifunk.net. (
-                1621791680 ; serial number of this zone file
+                1644163812 ; serial number of this zone file
                 1h         ; slave refresh
                 15m        ; slave retry time in case of a problem
                 30d        ; slave expiration time

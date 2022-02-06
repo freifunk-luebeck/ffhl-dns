@@ -1,7 +1,7 @@
 $ORIGIN ffdyn.net.
 $TTL 300
 ffdyn.net. IN SOA ns1.ffdyn.net. info.luebeck.freifunk.net. (
-                1637193914 ; serial number of this zone file
+                1644163812 ; serial number of this zone file
                 15m         ; slave refresh
                 5m         ; slave retry time in case of a problem
                 30d        ; slave expiration time
