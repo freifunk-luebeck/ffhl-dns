@@ -18,6 +18,8 @@ srv03           A     10.130.0.11
 srv03           AAAA  2001:67c:2d50::b
 srv04           A     10.130.0.13
 srv04           AAAA  2001:67c:2d50::d
+blackbox        A     10.130.0.14
+                AAAA  2001:67c:2d50::e
 blueberry       A     10.130.0.101
 blueberry       AAAA  2001:67c:2d50::101
 strawberry      A     10.130.0.102
