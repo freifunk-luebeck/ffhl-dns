@@ -12,4 +12,4 @@ ffhl.de. IN SOA ns1.luebeck.freifunk.net. maschinenraum.luebeck.freifunk.net. (
   NS ns2.luebeck.freifunk.net.
 
 
-$INCLUDE ffhl/ffhl.include
+$INCLUDE ffhl.include
