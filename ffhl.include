@@ -74,6 +74,10 @@ up                  CNAME blueberry
 yourservice         NS    srv02.luebeck.freifunk.net.
 backbone            CNAME srv02
 
+; internal addressing for containers and VMs
+; postfixed with .net
+monitoring.net      AAAA 2001:67c:2d50::f
+
 1.introducer.tahoe CNAME srv04
 2.introducer.tahoe CNAME srv03-tahoe
 
